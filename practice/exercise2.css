@@ -1,0 +1,378 @@
+.uber{
+        background-color:black;
+        color:white;
+        border:none;
+        padding-bottom:10px;
+        padding-top:10px;
+        padding-left:20px;
+        padding-right:20px;
+        transition:opacity 0.15s;
+
+ }
+
+
+ .uber:hover{
+  opacity:0.8;
+ }
+
+
+   .Amazon{
+    background-color:rgb(255,216,20);
+    color:black;
+    border:none;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:45px;
+    margin-left:8px;
+    transition:background-color 0.15;
+
+  }
+
+  .Amazon:hover{
+    background-color:rgb(250, 203, 48);
+  }
+
+
+
+  .GitHub{
+    background-color:rgb(46, 164, 79);
+    color:white;
+    border:none;
+    font-weight:bold;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:8px;
+    margin-left:8px;
+    transition: box-shadow 0.15s;
+
+
+    
+  }
+
+  .GitHub:hover{
+
+    box-shadow:4px 4px 9px rgba(0,0,0,0.2);
+      
+    }
+    
+
+
+  .Bootstrap{
+    background-color:rgb(121,82,179);
+    color:white;
+    font-weight:bold;
+    border:none;
+    padding-bottom:11px;
+    padding-top:11px;
+    padding-left:20px;
+    padding-right:20px;;
+    margin-left:8px;
+    transition:opacity 0.15s;
+
+
+  }
+
+  .Bootstrap:hover{
+    opacity:0.8;
+
+
+  }
+
+  .bootstrap1{
+    background-color:white;
+    color:rgb(108,117,125);
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(108,117,125);
+    font-weight:bold;
+    transition:background-color 0.15s, color 0.15s;
+
+  }
+
+  .bootstrap1:hover{
+    background-color:rgb(108,117,125);
+    color:white;
+
+  }
+
+  .Linkedin{
+    background-color:rgb(10,102,194);
+    color:white;
+    margin-top:8px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:18px;
+    padding-right:18px;
+    font-weight:bold;
+    border-radius:30px;
+    font-size: 13px;
+    transition:opacity 0.15s;
+}
+  .Linkedin:hover{
+    opacity:0.8;
+
+  }
+
+
+ .save{
+    background-color:white;
+    color:rgb(23, 126, 228);
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:18px;
+    padding-right:18px;
+    font-weight: bold;
+    border-radius:30px;
+    border-style:solid;
+    border-width:2px;
+    border-color:rgb(23, 126, 228);
+    transition:background_color 0.15s, border-width 0.15s;
+
+
+
+
+
+ }
+
+ .save:hover{
+  background-color:rgba(99, 177, 255, 0.3);
+  border-width:3px;
+ }
+
+
+
+  a{
+    color:rgb(0,113,133);
+ 
+  }
+
+  a:hover{
+    color:rgb(203, 147, 44);
+
+  }
+
+  .heading{
+    color:black;
+    font-size:25px;
+    font-weight: bold;
+    
+  }
+
+  .price{
+    color:rgb(0,118,0);
+    font-weight:bold;
+
+
+
+  }
+
+  .addtocart{
+    background-color:rgb(229, 201, 18);
+    color:black;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:30px;
+    border:none;
+    transition:background-color 0.15s;
+
+    
+
+
+  }
+
+  .addtocart:hover{
+    background-color:rgb(245, 235, 40);
+  }
+
+  .addtocart:active{
+    opacity:0.6;
+
+
+  }
+
+  .buynow{
+    background-color:rgb(249, 166, 11);
+    color:black;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius:30px;
+    border:none;
+    transition:background-color 0.15s;
+
+  }
+
+  .buynow:hover{
+    background-color:rgb(225, 153, 20);
+  }
+  
+  .buynow:active{
+    opacity:0.6;
+  }
+
+
+
+  .back{
+  margin-top:25px;
+  padding-top:9px;
+  padding-bottom:9px;
+  padding-right:9px;
+  padding-left:9px;
+  font-size:14px;
+  font-weight:500;
+  
+}
+
+span{
+  font-size:17px;
+  margin-left:8px;
+  margin-right:8px;
+  
+  color:rgb(55, 2, 104);
+  text-decoration:underline;
+}
+
+.next{
+  margin-top:25px;
+  padding-top:9px;
+  padding-bottom:9px;
+  padding-right:9px;
+  padding-left:9px;
+  font-size:14px;
+  font-weight:500;
+  
+  
+}
+
+.stretch{
+  background-color: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: padding-top 1s,
+      padding-bottom 1s,
+      padding-left 1s,
+      padding-right 1s;
+
+}
+
+.stretch:hover{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
+ 
+
+}
+
+.shadow{
+  background-color:green;
+  color:white;
+  border:none;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-right:16px;
+  padding-left:16px;
+  font-weight:500;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:17px;
+  box-shadow:5px 5px 9px rgba(0,0,0,0.4);
+  transition:translateY 0.15s , box-shadow 0.15s;
+
+
+}
+
+.shadow:active{
+  transform:translateY(1px);
+  box-shadow:0 0 0;
+}
+
+.one{
+  background-color:green;
+  color:white;
+  border:none;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-right:16px;
+  padding-left:16px;
+  font-weight:500;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:17px;
+  transition:padding 0.15s, margin 0.15;
+}
+ .one:hover{
+  padding-left:25px;
+  padding-right:25px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+ }
+.two{
+  background-color:green;
+  color:white;
+  border:none;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-right:16px;
+  padding-left:16px;
+  font-weight:500;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:17px;
+  transition:padding 0.15s, margin 0.15;
+}
+.two:hover{
+  padding-left:25px;
+  padding-right:25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.three{
+  background-color:green;
+  color:white;
+  border:none;
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-right:16px;
+  padding-left:16px;
+  font-weight:500;
+  margin-left:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:17px;
+  transition:padding 0.15s, margin 0.15;
+}
+.three:hover{
+  padding-left:25px;
+  padding-right:25px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+
+
+
+

@@ -1,0 +1,87 @@
+   .Tahoma{
+    font-family:Tahoma;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom: 30px;
+
+}
+   .Deals{
+    font-family:Arial;
+    font-size:30px;
+    font-weight:bold;
+    margin-top:15px;
+    margin-bottom:3px;
+   }
+
+   .Sales{
+    font-style:italic;
+    font-size:19px;
+    font-family:Arial;
+    color: rgb(223, 24, 24);
+    padding-top:0px;
+    margin-top:0px;
+    margin-bottom:35px;
+   }
+
+   .course{
+    font-family:verdana;
+    font-weight:bold;
+    font-size:25px;
+    margin-bottom:0px;
+
+   }
+
+   .Pro{
+    margin-top:3px;
+    font-family:verdana;
+    color:grey;
+
+   }
+
+   .info{
+    font-family:verdana;
+    width:300px;
+    line-height:19px;
+
+
+   }
+
+   button{
+    background-color:rgb(13, 151, 13);
+    border:none;
+    color:white;
+    padding-bottom:6px;
+    padding-top:6px;
+    padding-left:12px;
+    padding-right:12px;
+    border-radius: 5px;
+
+   }
+
+   .shopping{
+    margin-top:25px;
+    font-family:Arial;
+    font-size:27px;
+    text-align: center;
+    font-weight:bold;
+    margin-bottom: 0px;
+   }
+
+   .sub{
+    font-family:Arial;
+    text-align: center;
+    margin-top:13px;
+    font-weight:500;
+    margin-bottom:17px;
+
+   }
+
+   .learn{
+    font-family:Arial;
+    text-align: center;
+    font-weight:500;
+    font-size:15px;
+    color:rgb(39, 39, 226);
+
+   }
