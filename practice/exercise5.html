@@ -69,7 +69,7 @@
 
         }
 
-        button{
+        .linkedin-button{
             margin-top:15px;
             margin-left: 70px;
             padding-bottom:12px;
@@ -84,13 +84,12 @@
         }
 
         .gojo3{
-            width:70px;
-            height:70px;
+            width:50px;
+            height:50px;
             object-fit:cover;
             border-radius:360px;
-            margin-top: 25px;
             vertical-align: middle;
-            margin-left: 20px;
+        
         }
 
         .search{
@@ -99,10 +98,42 @@
             padding-bottom:9px ;
             padding-top:15px;
             font-size: medium;
-            vertical-align: middle;
+            
+            
 
            
 
+        }
+
+        .tweet{
+
+            padding-top:7px ;
+            padding-right:18px;
+            padding-left:18px ;
+            padding-bottom:7px;
+            background-color: rgb(39, 115, 202);
+            color: white;
+            border:none;
+            border-radius:15px;
+            font-weight:600;
+           
+            
+
+        }
+
+        .Text{
+            border:1px;
+            border-style:solid;
+            width: 450px;
+            padding-bottom:7px;
+            padding-top:7px ;
+            padding-left:4px ;
+            border-color: grey;
+            box-shadow:4px 4px 10px rgba(159, 157, 157, 0.15);
+
+           
+           
+            
         }
 
 
@@ -120,10 +151,14 @@
     <p>Email</p>
     <input class="linkedin" type="email">
     <p>By clicking Agree & Join, you agree to the Privacy Policy</p>
-    <button>Agree & Join</button><br>
-    <img class="gojo3" src="../photos/gojo.jpg" alt="gojo">
-    <input class="search"  type="text" placeholder="What's happening ?">
+    <button class="linkedin-button">Agree & Join</button><br>
+    <div class="Text">
+        <img class="gojo3" src="../photos/gojo.jpg" alt="gojo">
+        <input class="search"  type="text" placeholder="What's happening ?">
+        <button class="tweet">Tweet</button>
 
+    </div>
+   
 
     
 </body>
