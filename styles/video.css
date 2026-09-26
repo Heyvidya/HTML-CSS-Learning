@@ -3,7 +3,7 @@
         }
 
         .title{
-            width: 100%;
+            width:100%;
             font-weight:550;
             margin-top:6px;
             font-size:12;
@@ -14,7 +14,7 @@
             font-size: 13px;
             color: rgb(88, 86, 86);
             margin-bottom: 3px;
-            ma
+           
         }
 
         .time{
@@ -31,11 +31,9 @@
 
         }
 
-        .info{
-            display: grid;
-            grid-template-columns: 50px 250px;
-            
-        
+        .info {
+        display: grid;
+        grid-template-columns: 50px 1fr;
         }
 
         .content{
@@ -51,4 +49,6 @@
             grid-template-columns: 1fr 1fr 1fr;
             column-gap:20px;
             row-gap:30px;
+            background-color: rgb(241, 241, 236);
+            padding-top: 15px;
         }

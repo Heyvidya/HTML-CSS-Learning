@@ -1,59 +1,91 @@
+.header{
+    display:flex;
+    height: 60px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-section{
+    width:180px;
+    
+    
+}
+
+.middle-section{
+    background-color:white;
+    flex: 1;
+    max-width:400px;
+    
+
+}
+
+.right-section{
+    
+    width: 200px;
+    display: flex;
+    justify-content: end;
+}
+
+.Search-box{
+    padding-bottom:8px ;
+    width:300px;
+    padding-top:8px ;
+    margin-right: 0px;
+
+    
+}
+
+.hamburger-menu{
+    height:20px;
+    margin-right:20px;
+    margin-left: 15px;
+
+}
+
+.youtube{
+    height:20px;
+    width: 100px;
+    
+
+}
+
+.search{
+    height: 20px;
+    vertical-align: middle;
+    border:1px;
+    border-style: solid;
+    padding-top:7px;
+    padding-bottom:7px;
+    margin-left: 0px;
+}
+
+.upload{
+    height:30px;
+    margin-left:15px;
+
+}
+
+.notifications{
+    height: 30px;
+     margin-left:15px;
+     margin-right: 15px;
 
 
-        .icon{
-            width:100px;
-            padding-bottom:15px ;
-            padding-top: 15px;
-            padding-left: 5px;
-        }
-
-        p{
-            font-family: Arial;
-        }
-
-        .Search-box{
-            padding-left:8px;
-            padding-top:8px ;
-            padding-bottom:8px;
-            font-size: medium;
-            display: block;
-           
-
-        }
-
-        body{
-            margin:0px;
-        }
-
-        .header{
-            display: flex;
-             border-width: 1px;
-            border-style: solid;
-            width:full;
-            align-items:center;
+}
 
 
-        }
 
-        .head-box{
-            margin-left: 50px;
+.youtube-apps{
+    height: 30px;
+     margin-left:15px;
 
-        }
+}
 
-        .Search{
-            background-color: rgb(220, 130, 13);
-            margin-left: 100px;
-            margin-right: 70px;
 
-        }
+.my-channel{
+    height: 30px;
+    margin-right: 15px;
 
-        .other-things{
-            background-color: burlywood;
-            
-            
+}
 
-        }
-
-        .search-icon{
-            width:20px;
-        }
