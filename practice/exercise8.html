@@ -4,135 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
 
-        .name{
-            font-weight: bold;
-            margin-left:4px;
+    <style>
+        .image{
+            width: 200px;
+            margin-bottom:0%;
+            display: block;
+            height: 200px;
         }
 
-        .info{
-            color: rgb(90, 89, 89);
-            margin-left: 4px;
+        .name{
+            font-weight: 600;
+            font-size:16px;
+            font-family: Arial;
+            margin-bottom: 0px;
+            margin-top: 2px;
+        }
+
+        .gojo{
+            width:30px;
+            height:30px;
+            border-radius: 360px;
+            
+        }
+
+        .mutual{
+            color: rgb(95, 93, 93);
         }
 
         button{
-            padding-bottom:5px;
-            padding-left:7px;
-            padding-right:7px ;
-            padding-top:5px;
-            background-color: rgb(2, 119, 221);
+            padding-bottom:6px ;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top:6px ;
+            background-color: rgb(7, 114, 222);
             color: white;
             border: none;
-            margin-left:4px;
+        }
+        .info{
+            display: grid;
+            grid-template-columns: 40px  140px;
+            align-items: center;
+            margin-top: 0px;
+            
         }
 
-
-
-        img{
-            width:200px;
-            height:200px;
-        }
-
-        .image_1{
-            line-height:2px;
+        .content{
             border: 1px;
             border-style: solid;
-            border-width:1px;
-            width: 200px;
-            padding-bottom:5px;
-            border-color: antiquewhite;
-             display: inline-block;
-           
-            
-            }
-
-        .image_2{
-            line-height:2px;
-            border: 1px;
-            border-style: solid;
-            border-width:1px;
-            width: 200px;
-            padding-bottom:5px;
-            border-color: antiquewhite;
-             display: inline-block;
-             margin-left:5px ;
-
-        }
-
-        .preview{
-            border-style: solid;
-            border-width:1px;
-            width: 215px;
-            padding-left:15px ;
-            padding-top:12px;
-            padding-bottom: 12px;
-            margin-bottom:20px;
-            
-           
-
+            margin-top:0%;
+            width: 198px;
+            border-color:rgb(213, 207, 200);
+            padding-bottom:8px;
+            padding-top: 5px;
+            margin-bottom: 8px;
         }
 
         .final{
-            border-style: solid;
-            border-width:1px;
-            width:650px;
-            padding-left:15px ;
-            padding-top:12px;
-            padding-bottom: 12px;
-            margin-bottom:20px;
-
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 12px;
         }
-
-        
     </style>
 </head>
-<body>
-    
-    <div class="preview">
-        <div class="image_1">
-        <img src="../photos/images.jpg"  alt="image">
-        <p class="name">Oliver</p>
-        <p class="info">2 mutual friends</p>
-        <button>Add Friend</button>
-        </div>
-     </div>
 
+<body>
+    <
     <div class="final">
-        <div class="image_2">
-            <img src="../photos/images.jpg"  alt="image">
+        <div>
+            <div>
+        <img class="image" src="../photos/images.jpg" alt="image">
+         </div>
+    
+        <div class="content">
             <p class="name">Oliver</p>
-            <p class="info">2 mutual friends</p>
+            <div class="info">
+                <div>
+                <img class="gojo" src="../photos/gojo.jpg"  alt="gojo">
+            </div>
+            <div>
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            </div>
             <button>Add Friend</button>
         </div>
-
-
-     
-        <div class="image_2">
-        <img src="../photos/images (1).jpg"  alt="image1">
-        <p class="name">Mimi</p>
-        <p class="info">3 mutual friends</p>
-        <button>Add Friend</button>
         </div>
+        
     
-
-   
-     
-        <div class="image_2">
-        <img src="../photos/images (2).jpg"  alt="image2">
-        <p class="name">Rex</p>
-        <p class="info">4 mutual friends</p>
-        <button>Add Friend</button>
+         <div>
+            <div>
+        <img class="image" src="../photos/images (1).jpg" alt="image">
+         </div>
+    
+        <div class="content">
+            <p class="name">Oliver</p>
+            <div class="info">
+                <div>
+                <img class="gojo" src="../photos/gojo.jpg"  alt="gojo">
+            </div>
+            <div>
+                <p class="mutual">2 mutual friends</p>
+            </div>
+            </div>
+            <button>Add Friend</button>
+        </div>
         </div>
 
-    </div>
-
-   
-
-
+        <div>
+                <div>
+            <img class="image" src="../photos/images (2).jpg" alt="image">
+            </div>
+        
+            <div class="content">
+                <p class="name">Oliver</p>
+                <div class="info">
+                    <div>
+                    <img class="gojo" src="../photos/gojo.jpg"  alt="gojo">
+                </div>
+                <div>
+                    <p class="mutual">2 mutual friends</p>
+                </div>
+                </div>
+                <button>Add Friend</button>
+            </div>
+            </div>
     
-
-    
-   
 </body>
 </html>
